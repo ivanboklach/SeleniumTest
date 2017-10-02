@@ -57,7 +57,7 @@ public class BurberryPage {
             driver.findElement(By.cssSelector(findInStore));
             driver.findElement(By.cssSelector(imageOnPage));
             present = true;
-            System.out.println("Все элементы присутсвуют на странице");
+            System.out.println("Все элементы присутсвуют на странице!");
         } catch (NoSuchElementException e) {
             present = false;
         }
